@@ -389,3 +389,11 @@ section {
   color: var(--bg-color);
   transform: translateX(-4px);
 }
+
+/*******************COPYRIGHTS************/
+.copyright p {
+  text-align: center;
+  padding: 20px;
+  color: #979797;
+  font-size: 15px;
+}
