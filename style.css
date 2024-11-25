@@ -26,11 +26,7 @@ li {
 body {
   color: var(--text-color);
   background-color: var(--bg-color);
-<<<<<<< HEAD
-  height: 2000px;
-=======
   height: 3000px;
->>>>>>> section-feature
 }
 /*************************navbar************************/
 nav {
@@ -44,7 +40,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: all 0.6s ease-out;
+  transition: all 0.5s ease-out;
 }
 nav.sticky {
   padding: 8px 17%;
@@ -138,7 +134,7 @@ section {
   color: #ffffffab;
   margin-bottom: 35px;
 }
-.section .btn {
+.home .btn {
   display: inline-block;
   padding: 13px 40px;
   background: var(--main-color);
@@ -152,7 +148,7 @@ section {
   transition: all 0.4s ease-out;
   cursor: pointer;
 }
-.section .btn:hover {
+.home .btn:hover {
   transform: translateX(2px);
   border: 2px solid var(--text-color);
   background-color: transparent;
