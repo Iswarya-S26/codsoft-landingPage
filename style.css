@@ -26,6 +26,7 @@ li {
 body {
   color: var(--text-color);
   background-color: var(--bg-color);
+  height: 2000px;
 }
 
 nav {
@@ -40,6 +41,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   transition: all 0.6s ease-out;
+}
+nav.sticky {
+  padding: 8px 17%;
+  background: transparent;
+  backdrop-filter: blur(40px);
 }
 
 .logo {
