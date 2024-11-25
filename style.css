@@ -27,7 +27,7 @@ body {
   color: var(--text-color);
   background-color: var(--bg-color);
 }
-
+/*************************navbar************************/
 nav {
   position: fixed;
   top: 0;
@@ -93,7 +93,7 @@ nav .h-right a:hover {
   display: none;
 }
 
-/********************NAVBAR***********************/
+/********************SECTION HOME***********************/
 section {
   padding: 70px 17% 60px;
 }
