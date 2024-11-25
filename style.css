@@ -6,3 +6,89 @@
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
 }
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+:root {
+  --text-color: #fff;
+  --bg-color: #000;
+  --main-color: #ffa343;
+
+  --h1-font: 6rem;
+  --h2-font: 3rem;
+  --p-font: 1rem;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  padding: 27px 17%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.6s ease-out;
+}
+
+.logo {
+  font-size: 33px;
+  color: var(--text-color);
+  font-weight: 700;
+}
+.logo span {
+  color: var(--main-color);
+}
+
+.navbar-ul {
+  display: flex;
+}
+.navbar-ul a {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  font-weight: 500;
+  margin: 15px 20px;
+  transition: all 0.4s ease-out;
+}
+.navbar-ul a:hover {
+  color: var(--main-color);
+}
+nav .h-right {
+  display: flex;
+  align-items: center;
+}
+nav .h-right a:first-child {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  margin-right: 20px;
+}
+nav .h-right a {
+  display: inline-block;
+  font-size: 20px;
+  color: var(--text-color);
+  margin-right: 18px;
+  margin-left: 5px;
+  transition: all 0.6s ease-out, transform 0.2s ease;
+}
+nav .h-right a:hover {
+  color: var(--main-color);
+  transform: translateY(-3px);
+}
+#menu-icon {
+  color: var(--text-color);
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 100;
+  display: none;
+}
