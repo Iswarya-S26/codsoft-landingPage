@@ -492,6 +492,12 @@ section {
   .home {
     height: 85vh;
   }
+  .home .home-text {
+    margin-top: 50px;
+  }
+  .home-text h1 {
+    font-size: 35px;
+  }
 }
 @media (max-width: 450px) {
   nav {
@@ -501,6 +507,12 @@ section {
     padding: 7px 3%;
   }
   section {
+    width: 100%;
     padding: 60px 3% 50px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  body > * {
+    width: 100%;
   }
 }
