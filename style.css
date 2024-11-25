@@ -52,6 +52,7 @@ nav.sticky {
   font-size: 33px;
   color: var(--text-color);
   font-weight: 700;
+  /* background-color: rgba(204, 204, 204, 0.8); */
 }
 .logo span {
   color: var(--main-color);
@@ -107,12 +108,13 @@ section {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url(./images/Background.png);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 100%), url(./images/bg.jpg);
   background-size: cover;
   background-position: bottom center;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  filter: brightness(90%);
 }
 .home-text h5 {
   font-size: 18px;
@@ -126,6 +128,7 @@ section {
   font-size: var(--h1-font);
   font-weight: 800;
   margin-bottom: 20px;
+  color: rgba(255, 255, 255, 1);
 }
 .home-text p {
   font-size: var(--p-font);
