@@ -28,7 +28,7 @@ body {
   background-color: var(--bg-color);
   height: 2000px;
 }
-
+/*************************navbar************************/
 nav {
   position: fixed;
   top: 0;
@@ -99,7 +99,7 @@ nav .h-right a:hover {
   display: none;
 }
 
-/********************NAVBAR***********************/
+/********************SECTION HOME***********************/
 section {
   padding: 70px 17% 60px;
 }
