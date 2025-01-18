@@ -13,7 +13,7 @@ A fully responsive and modern travel agency landing page showcasing the beauty o
   - Tours: Lists popular destinations with images.
   - Culture: Describes Kerala's rich culture and heritage.
   - Newsletter: Includes a subscription form.
-- **Footer with Quick Links:** Includes links to services, about section, and social medi.
+- **Footer with Quick Links:** Includes links to services, about section, and social media.
 
 ## 🛠️ Technologies Used
 
