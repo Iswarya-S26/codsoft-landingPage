@@ -1,6 +1,6 @@
 # Landing Page for Travel Agency 🌍✈️
 
-A fuly responsive and modern travel agency landing page showcasing the beauty of Kerala, India. This project demonstrates the use of HTML, CSS, and JavaScript is build an engaging and user-friendly website.
+A fully responsive and modern travel agency landing page showcasing the beauty of Kerala, India. This project demonstrates the use of HTML, CSS, and JavaScript is build an engaging and user-friendly website.
 
 ## 🌟 Features
 
